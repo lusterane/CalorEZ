@@ -1,2 +1,3 @@
 # CalorEZ
-Calorie tracking android app
+Java.
+Calorie tracking android app.
