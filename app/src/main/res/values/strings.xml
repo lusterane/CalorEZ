@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalorEZ</string>
+    <string name="body_info">Name=\nAge=\nInches=\nFeet=\nCm=\nMeter=\nWeight=\nDOB=\nFemale=\nGoal=\nBodyFat=</string>
+    <string name="title_activity_list_data">ListDataActivity</string>
+    <string name="db_path">/data/data/com.example.toby.calorez/databases/main_database</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>
