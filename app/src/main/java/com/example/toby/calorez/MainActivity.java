@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if(!checkDataBase()) {
-            toastMessage(this, "Database exists");
+            toastMessage(this, "Profile not found");
             startActivity(new Intent(this, NameActivity.class));
         }
         init();

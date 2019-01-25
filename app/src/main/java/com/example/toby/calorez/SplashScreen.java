@@ -47,12 +47,7 @@ public class SplashScreen extends AppCompatActivity {
     private boolean startDelayedActivity(){
         handler.postDelayed(runnable, 3000);
         return true;
-    }
-    @Override
-    protected void onPause(){
-        handler.removeCallbacks(runnable);
-        super.onPause();
-    }
+    }/*
     @Override
     protected void onResume(){
         // start main activity
@@ -61,7 +56,7 @@ public class SplashScreen extends AppCompatActivity {
             startActivity(new Intent(this, MainActivity.class));
             super.onResume();
         }
-    }
+    }*/
     @Override
     protected void onStart(){
         delayed = startDelayedActivity();
